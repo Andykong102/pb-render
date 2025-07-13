@@ -6,7 +6,7 @@ LABEL maintainer="your-name"
 
 # 設定 PocketBase 的版本和下載 URL
 # 你可以到 https://github.com/pocketbase/pocketbase/releases 查詢最新版本
-ARG PB_VERSION=0.22.18
+ARG PB_VERSION=0.28.4
 ARG PB_URL="https://github.com/pocketbase/pocketbase/releases/download/v${PB_VERSION}/pocketbase_${PB_VERSION}_linux_amd64.zip"
 
 # 安裝 wget 和 unzip 以下載並解壓縮 PocketBase
