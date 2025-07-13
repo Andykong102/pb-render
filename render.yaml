@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: pocketbase
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PB_ENCRYPTION_KEY
+        generateValue: true
